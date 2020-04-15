@@ -1,6 +1,6 @@
 # meals_app
 
-A new Flutter application.
+A Flutter application for your recepies. Developed to make this easier during COVID-19 lockdown.
 
 ## Getting Started
 
