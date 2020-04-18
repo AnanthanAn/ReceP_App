@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meals_app/categories_list.dart';
 import 'package:meals_app/widgets/category_item.dart';
+import 'package:meals_app/widgets/drawer_main.dart';
 
 class CategoriesScreen extends StatefulWidget {
   static const routeName = '/categories-screen' ;
@@ -13,9 +14,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Meals App'),
-      ),
+
       body: GridView(
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
             maxCrossAxisExtent: 200,

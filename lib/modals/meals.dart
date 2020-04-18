@@ -35,32 +35,5 @@ class Meal {
     @required this.isVegetarian,
   });
 
-  String get getComplexity{
 
-    switch(complexity){
-      case Complexity.Easy:
-        return 'Easy';
-        break;
-      case Complexity.Medium:
-        return 'Medium';
-      case Complexity.Hard:
-        return 'Hard';
-      default:
-        return 'Unknown';
-    }
-    }
-  String get getAffordability{
-
-    switch(affordability){
-      case Affordability.Cheap:
-        return 'Cheap';
-        break;
-      case Affordability.Expensive:
-        return 'Expensive';
-      case Affordability.Luxurious:
-        return 'Luxurious';
-      default:
-        return 'Unknown';
-    }
-  }
 }
